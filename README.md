@@ -6,8 +6,6 @@
 ## Differences with the spec
 
 ### Kyber
-- Index ``i`` and ``j`` are swaped when doing matrix A expansion. Namely code expands the matrix in following way ``A[i][j] = Parse(XOF(rho,j,i)`` instead of ``A[i][j] = Parse(XOF(rho,i,j)``.
-- Additionaly values of ``z`` (alg 15), ``d`` (alg 12) and ``msg`` (value ``m`` from alg 16) are provided.
 - no tests for key validation, negative tests are also not available
 
 
