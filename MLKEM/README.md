@@ -1,24 +1,29 @@
 ## KAT for FIPS-203 (draft)
 
-Compliant with FIPS-203 draft, published on August 24, 2023
+Compliant with FIPS-203 draft, published on August 24, 2023.
+Those vectors include [comments](https://csrc.nist.gov/Projects/post-quantum-cryptography/post-quantum-cryptography-standardization/example-files) published by NIST on October 31, 2023.
 
 ## File format:
 
-| Field     | Meaning                              |
-|-----------|--------------------------------------|
-| ``count`` | Test number                          |
-| ``z``     | Random 32-bytes ``z`` (Algorithm 15) |
-| ``d``     | Random 32-bytes ``d`` (Algorithm 12) |
-| ``msg``   | Random 32-bytes ``m`` (Algorithm 16) |
-| ``seed``  | AES-CTR-drbg seed                    |
-| ``pk``    | Resulting public key                 |
-| ``sk``    | Resulting secret key                 |
-| ``ct``    | Resulting KEM ciphertext             |
-| ``ss``    | Resulting KEM shared secret          |
+| Field     | Meaning                                                |
+|-----------|--------------------------------------------------------|
+| ``count`` | Test number                                            |
+| ``z``     | Random 32-bytes ``z`` (Algorithm 15)                   |
+| ``d``     | Random 32-bytes ``d`` (Algorithm 12)                   |
+| ``msg``   | Random 32-bytes ``m`` (Algorithm 16)                   |
+| ``seed``  | AES-CTR-drbg seed                                      |
+| ``pk``    | Resulting public key                                   |
+| ``sk``    | Resulting secret key                                   |
+| ``ct``    | Resulting KEM ciphertext                               |
+| ``ss``    | Resulting KEM shared secret                            |
+| ``ct_n``  | Invalid KEM ciphertext                                 |
+| ``ss_n``  | Shared secret resulting from decapsulation of ``ct_n`` |
 
 ## Differences with the FIPS-203
 - No tests for key validation
-- Negative tests are also not available (yet)
+- The order of the input i and j to the XOF at step 6 in Algorithm 12 K-PKE.KeyGen() is switched.
+- The order of the input i and j to the XOF at step 6 in Algorithm 13 K-PKE.Encrypt() is switched.
+
 
 ## How it was generated
 
