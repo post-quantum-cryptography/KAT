@@ -1,0 +1,81 @@
+{
+  "vsId": 0,
+  "algorithm": "LMS",
+  "mode": "keyGen",
+  "revision": "1.0",
+  "isSample": true,
+  "testGroups": [
+    {
+      "tgId": 1,
+      "testType": "AFT",
+      "lmsMode": "LMS_SHA256_M24_H25",
+      "lmOtsMode": "LMOTS_SHA256_N24_W1",
+      "tests": [
+        {
+          "tcId": 1,
+          "seed": "06350E2EBD5E440B59DC25F6327E232CD9F7D2E8C6F5FE41",
+          "i": "1E09724B5D11983E8F1FF3BAC8E9492A"
+        },
+        {
+          "tcId": 2,
+          "seed": "BDEE25EB545F0D591FCCF5D3D25F3080A13649926B1283DB",
+          "i": "892AA80E9B6F551FC2751848A6A1529C"
+        }
+      ]
+    },
+    {
+      "tgId": 2,
+      "testType": "AFT",
+      "lmsMode": "LMS_SHA256_M24_H25",
+      "lmOtsMode": "LMOTS_SHA256_N24_W2",
+      "tests": [
+        {
+          "tcId": 3,
+          "seed": "B5537A0BAC873972D221B92F0B7AF7915FDBD1BE350E1A1E",
+          "i": "548A780A01CD54734673E43F7662D6B4"
+        },
+        {
+          "tcId": 4,
+          "seed": "71DCB0A4F8B44F5C34586F52A0EEE36733D85F6E23AB8805",
+          "i": "D17F84DC70CF77C4F6ACE6E630412CCD"
+        }
+      ]
+    },
+    {
+      "tgId": 3,
+      "testType": "AFT",
+      "lmsMode": "LMS_SHA256_M24_H25",
+      "lmOtsMode": "LMOTS_SHA256_N24_W4",
+      "tests": [
+        {
+          "tcId": 5,
+          "seed": "4392D02FA985E0A7E71CB689D122234EF704F5ACFED1F219",
+          "i": "DDA5F3C47A912BEF3A3E2B24531ABE2F"
+        },
+        {
+          "tcId": 6,
+          "seed": "53DD079BC68393585F2615BA142B804F9BB00A8193E04441",
+          "i": "EAED75581F5D384806516F435E6F29AD"
+        }
+      ]
+    },
+    {
+      "tgId": 4,
+      "testType": "AFT",
+      "lmsMode": "LMS_SHA256_M24_H25",
+      "lmOtsMode": "LMOTS_SHA256_N24_W8",
+      "tests": [
+        {
+          "tcId": 7,
+          "seed": "824941C503F927C91A36D7C0E3122E76E26D58F165FC6BC1",
+          "i": "3A6998782FC01B0C69018F8FFF986C67"
+        },
+        {
+          "tcId": 8,
+          "seed": "5A5440FE88A94306D4DAF646FB089DB3A139B989F8CD15B6",
+          "i": "04DFD40713FFB9AC9C1D370A1EE93628"
+        }
+      ]
+    }
+  ]
+}

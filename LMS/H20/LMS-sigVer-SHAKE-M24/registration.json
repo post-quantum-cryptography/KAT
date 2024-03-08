@@ -1,0 +1,26 @@
+{
+  "specificCapabilities": [
+    {
+      "lmsMode": "LMS_SHAKE_M24_H20",
+      "lmOtsMode": "LMOTS_SHAKE_N24_W1"
+    },
+    {
+      "lmsMode": "LMS_SHAKE_M24_H20",
+      "lmOtsMode": "LMOTS_SHAKE_N24_W2"
+    },
+    {
+      "lmsMode": "LMS_SHAKE_M24_H20",
+      "lmOtsMode": "LMOTS_SHAKE_N24_W4"
+    },
+    {
+      "lmsMode": "LMS_SHAKE_M24_H20",
+      "lmOtsMode": "LMOTS_SHAKE_N24_W8"
+    }
+  ],
+  "vsId": 0,
+  "algorithm": "LMS",
+  "mode": "sigVer",
+  "revision": "1.0",
+  "isSample": true,
+  "conformances": []
+}

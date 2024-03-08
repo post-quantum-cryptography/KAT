@@ -1,0 +1,93 @@
+{
+  "vsId": 0,
+  "algorithm": "LMS",
+  "mode": "sigVer",
+  "revision": "1.0",
+  "isSample": true,
+  "testGroups": [
+    {
+      "tgId": 1,
+      "tests": [
+        {
+          "tcId": 1,
+          "testPassed": true
+        },
+        {
+          "tcId": 2,
+          "testPassed": false
+        },
+        {
+          "tcId": 3,
+          "testPassed": false
+        },
+        {
+          "tcId": 4,
+          "testPassed": false
+        }
+      ]
+    },
+    {
+      "tgId": 2,
+      "tests": [
+        {
+          "tcId": 5,
+          "testPassed": false
+        },
+        {
+          "tcId": 6,
+          "testPassed": false
+        },
+        {
+          "tcId": 7,
+          "testPassed": false
+        },
+        {
+          "tcId": 8,
+          "testPassed": true
+        }
+      ]
+    },
+    {
+      "tgId": 3,
+      "tests": [
+        {
+          "tcId": 9,
+          "testPassed": true
+        },
+        {
+          "tcId": 10,
+          "testPassed": false
+        },
+        {
+          "tcId": 11,
+          "testPassed": false
+        },
+        {
+          "tcId": 12,
+          "testPassed": false
+        }
+      ]
+    },
+    {
+      "tgId": 4,
+      "tests": [
+        {
+          "tcId": 13,
+          "testPassed": false
+        },
+        {
+          "tcId": 14,
+          "testPassed": false
+        },
+        {
+          "tcId": 15,
+          "testPassed": true
+        },
+        {
+          "tcId": 16,
+          "testPassed": false
+        }
+      ]
+    }
+  ]
+}

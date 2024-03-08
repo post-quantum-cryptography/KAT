@@ -1,0 +1,42 @@
+{
+  "specificCapabilities": [
+    {
+      "lmsMode": "LMS_SHAKE_M32_H5",
+      "lmOtsMode": "LMOTS_SHAKE_N32_W1"
+    },
+    {
+      "lmsMode": "LMS_SHAKE_M32_H5",
+      "lmOtsMode": "LMOTS_SHAKE_N32_W2"
+    },
+    {
+      "lmsMode": "LMS_SHAKE_M32_H5",
+      "lmOtsMode": "LMOTS_SHAKE_N32_W4"
+    },
+    {
+      "lmsMode": "LMS_SHAKE_M32_H5",
+      "lmOtsMode": "LMOTS_SHAKE_N32_W8"
+    },
+    {
+      "lmsMode": "LMS_SHAKE_M32_H10",
+      "lmOtsMode": "LMOTS_SHAKE_N32_W1"
+    },
+    {
+      "lmsMode": "LMS_SHAKE_M32_H10",
+      "lmOtsMode": "LMOTS_SHAKE_N32_W2"
+    },
+    {
+      "lmsMode": "LMS_SHAKE_M32_H10",
+      "lmOtsMode": "LMOTS_SHAKE_N32_W4"
+    },
+    {
+      "lmsMode": "LMS_SHAKE_M32_H10",
+      "lmOtsMode": "LMOTS_SHAKE_N32_W8"
+    },
+  ],
+  "vsId": 0,
+  "algorithm": "LMS",
+  "mode": "keyGen",
+  "revision": "1.0",
+  "isSample": true,
+  "conformances": []
+}
