@@ -21,8 +21,8 @@ Those vectors include [comments](https://csrc.nist.gov/Projects/post-quantum-cry
 
 ## Differences with the FIPS-203
 - No tests for key validation
-- The order of the input i and j to the XOF at step 6 in Algorithm 12 K-PKE.KeyGen() is switched.
-- The order of the input i and j to the XOF at step 6 in Algorithm 13 K-PKE.Encrypt() is switched.
+- The order of the input i and j to the XOF at step 6 in Algorithm 12 K-PKE.KeyGen() is swapped.
+- The order of the input i and j to the XOF at step 6 in Algorithm 13 K-PKE.Encrypt() is swapped.
 
 
 ## How it was generated
