@@ -1,0 +1,81 @@
+{
+  "vsId": 0,
+  "algorithm": "LMS",
+  "mode": "keyGen",
+  "revision": "1.0",
+  "isSample": true,
+  "testGroups": [
+    {
+      "tgId": 1,
+      "testType": "AFT",
+      "lmsMode": "LMS_SHAKE_M24_H25",
+      "lmOtsMode": "LMOTS_SHAKE_N24_W1",
+      "tests": [
+        {
+          "tcId": 1,
+          "seed": "C4B52ED70C045C241F3C94D1153C324D1D3442B47D544781",
+          "i": "670E12C8DE890C0638A104AA5475DCF0"
+        },
+        {
+          "tcId": 2,
+          "seed": "25C9BA3909DB8C6F7EBC481A49A8B8D55B68099C2331C08F",
+          "i": "3E85EEDDA235ED95967BEF64DC3BEBD8"
+        }
+      ]
+    },
+    {
+      "tgId": 2,
+      "testType": "AFT",
+      "lmsMode": "LMS_SHAKE_M24_H25",
+      "lmOtsMode": "LMOTS_SHAKE_N24_W2",
+      "tests": [
+        {
+          "tcId": 3,
+          "seed": "471D163DDC80EC51412B9602D2D4CE8051E0D78B7575B16D",
+          "i": "463C7CCA2D9EBBCD3A5A66DDBF18BFC0"
+        },
+        {
+          "tcId": 4,
+          "seed": "FBE73B3843CA432B98B155FBEE09A4CE0822CC6F8BA6C326",
+          "i": "AD5CD85D50BE845214EC44510465E806"
+        }
+      ]
+    },
+    {
+      "tgId": 3,
+      "testType": "AFT",
+      "lmsMode": "LMS_SHAKE_M24_H25",
+      "lmOtsMode": "LMOTS_SHAKE_N24_W4",
+      "tests": [
+        {
+          "tcId": 5,
+          "seed": "88E6C46502A3FC2950CD6D0023D111BED37A7ED6E135B5CE",
+          "i": "82350961A0A17493272CE7B35DF54408"
+        },
+        {
+          "tcId": 6,
+          "seed": "4127EC8E5BC8573453621EDA13E4AD3ABDFB038F0049E3E8",
+          "i": "9A5F85B348B0CE5195FD03B9A0ADA730"
+        }
+      ]
+    },
+    {
+      "tgId": 4,
+      "testType": "AFT",
+      "lmsMode": "LMS_SHAKE_M24_H25",
+      "lmOtsMode": "LMOTS_SHAKE_N24_W8",
+      "tests": [
+        {
+          "tcId": 7,
+          "seed": "DEBBA117DF6870AD855BDD58F89E522C7C4CF80F748EEDB6",
+          "i": "BCD91FCD209BB783F2F14EF4931F2DE4"
+        },
+        {
+          "tcId": 8,
+          "seed": "59CD8D4C97DC8D8E7BF0082BC3702C47BD08B0F877174968",
+          "i": "2709FD2AA8D7FDB18A88107100F4AF90"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "vsId": 0,
+  "algorithm": "LMS",
+  "mode": "keyGen",
+  "revision": "1.0",
+  "isSample": true,
+  "testGroups": [
+    {
+      "tgId": 1,
+      "testType": "AFT",
+      "lmsMode": "LMS_SHAKE_M24_H20",
+      "lmOtsMode": "LMOTS_SHAKE_N24_W1",
+      "tests": [
+        {
+          "tcId": 1,
+          "seed": "466A2F13124569EE2FF1A8D77F86250DC29B5D02828E2B1B",
+          "i": "C74A2FDB448496C79C847BD140996B67"
+        },
+        {
+          "tcId": 2,
+          "seed": "E0FB953E6923644F75105D4355E3E769FBF084F173FDCED9",
+          "i": "1DCD2DC9D14C87800A4FA921C784017F"
+        }
+      ]
+    },
+    {
+      "tgId": 2,
+      "testType": "AFT",
+      "lmsMode": "LMS_SHAKE_M24_H20",
+      "lmOtsMode": "LMOTS_SHAKE_N24_W2",
+      "tests": [
+        {
+          "tcId": 3,
+          "seed": "749D780F6785C25A63311631BCD2A878FA3963AD393CD481",
+          "i": "8E9A531754B9F46D8EA288917219CA00"
+        },
+        {
+          "tcId": 4,
+          "seed": "7A887DDBE55ACDDE8E726B74CF226D667AB56CE50CB37D92",
+          "i": "CEE13529D8A0F29230106D89B56FB92F"
+        }
+      ]
+    },
+    {
+      "tgId": 3,
+      "testType": "AFT",
+      "lmsMode": "LMS_SHAKE_M24_H20",
+      "lmOtsMode": "LMOTS_SHAKE_N24_W4",
+      "tests": [
+        {
+          "tcId": 5,
+          "seed": "7B8A61CB07FAE4E249E03A743EF021A27F8E9E1172AB2366",
+          "i": "7055FBA65917EBDD0E00E6749F9118F5"
+        },
+        {
+          "tcId": 6,
+          "seed": "85236E77CA18855EAE475C4E579D631F2A5889BCFABC7AEB",
+          "i": "177A0B446AAE962BD87F8F3BECD0DD28"
+        }
+      ]
+    },
+    {
+      "tgId": 4,
+      "testType": "AFT",
+      "lmsMode": "LMS_SHAKE_M24_H20",
+      "lmOtsMode": "LMOTS_SHAKE_N24_W8",
+      "tests": [
+        {
+          "tcId": 7,
+          "seed": "3CE66F93A6DB873B42BE1D0E322A99493447CB7E2C73E467",
+          "i": "0EC94125CFC095F4EC2969917C85B148"
+        },
+        {
+          "tcId": 8,
+          "seed": "3ED40CE61C619BE0E01C61EB2ABBC974AF8C7299D7C1E44A",
+          "i": "B694E5D293F1733826DCBC169D96EB3E"
+        }
+      ]
+    }
+  ]
+}

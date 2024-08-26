@@ -1,0 +1,81 @@
+{
+  "vsId": 0,
+  "algorithm": "LMS",
+  "mode": "keyGen",
+  "revision": "1.0",
+  "isSample": true,
+  "testGroups": [
+    {
+      "tgId": 1,
+      "testType": "AFT",
+      "lmsMode": "LMS_SHA256_M24_H20",
+      "lmOtsMode": "LMOTS_SHA256_N24_W1",
+      "tests": [
+        {
+          "tcId": 1,
+          "seed": "10A2B1643B9239612E254C794025291A403CCEC2135DFE9C",
+          "i": "F974E7A77CF5EFE1D3EE80AC8D1E7735"
+        },
+        {
+          "tcId": 2,
+          "seed": "1DCE8CC81082289BAC9061342C6F22E0A5C01559C3B25DD3",
+          "i": "D4F2E77FD952BDE7A46393B0DD940707"
+        }
+      ]
+    },
+    {
+      "tgId": 2,
+      "testType": "AFT",
+      "lmsMode": "LMS_SHA256_M24_H20",
+      "lmOtsMode": "LMOTS_SHA256_N24_W2",
+      "tests": [
+        {
+          "tcId": 3,
+          "seed": "12BBCBE4047177C6E6C87C2C8E18F05A9CE5BE9B3BB1F924",
+          "i": "5BAEF287E572C84BE360732FF597E950"
+        },
+        {
+          "tcId": 4,
+          "seed": "C8D3D7249F41EA5F4493877C8330651423E19DD12FD91108",
+          "i": "1D4DC5AEA00CDDAD26AEC780BE8E31CB"
+        }
+      ]
+    },
+    {
+      "tgId": 3,
+      "testType": "AFT",
+      "lmsMode": "LMS_SHA256_M24_H20",
+      "lmOtsMode": "LMOTS_SHA256_N24_W4",
+      "tests": [
+        {
+          "tcId": 5,
+          "seed": "655A479EAFC0AD1834E111EC59F6B999FA8DDBC06027789D",
+          "i": "0D2CB6CE064194898694D3CDC7FADC5E"
+        },
+        {
+          "tcId": 6,
+          "seed": "0DFEF10181F832D49775B92584C11DF894542ED9CBCAE7E5",
+          "i": "080E46537B1BF088DDFCD089EDC53B43"
+        }
+      ]
+    },
+    {
+      "tgId": 4,
+      "testType": "AFT",
+      "lmsMode": "LMS_SHA256_M24_H20",
+      "lmOtsMode": "LMOTS_SHA256_N24_W8",
+      "tests": [
+        {
+          "tcId": 7,
+          "seed": "8EBB99BA684743545EA2D4C66CF2C2D543997EC76A2031BE",
+          "i": "46A3FC5357A6E09D14B5BDDA14B6966E"
+        },
+        {
+          "tcId": 8,
+          "seed": "AFC0CACA433AD53D9B48702C2B3B65326CF02E7ABF9F87BD",
+          "i": "931B796BF4FF6135CAFBB67865B8E33A"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "vsId": 0,
+  "algorithm": "LMS",
+  "mode": "keyGen",
+  "revision": "1.0",
+  "isSample": true,
+  "testGroups": [
+    {
+      "tgId": 1,
+      "testType": "AFT",
+      "lmsMode": "LMS_SHA256_M24_H20",
+      "lmOtsMode": "LMOTS_SHA256_N24_W1",
+      "tests": [
+        {
+          "tcId": 1,
+          "deferred": false,
+          "publicKey": "0000000D00000005F974E7A77CF5EFE1D3EE80AC8D1E7735EDB7B5A40A21CE88F6B82EA048DB32CFE1452C9C702EDC18",
+          "seed": "10A2B1643B9239612E254C794025291A403CCEC2135DFE9C",
+          "i": "F974E7A77CF5EFE1D3EE80AC8D1E7735"
+        },
+        {
+          "tcId": 2,
+          "deferred": false,
+          "publicKey": "0000000D00000005D4F2E77FD952BDE7A46393B0DD9407079A298A6579EBA4B6A5EFBCC80F9AD3EACF8CFD286AA75663",
+          "seed": "1DCE8CC81082289BAC9061342C6F22E0A5C01559C3B25DD3",
+          "i": "D4F2E77FD952BDE7A46393B0DD940707"
+        }
+      ]
+    },
+    {
+      "tgId": 2,
+      "testType": "AFT",
+      "lmsMode": "LMS_SHA256_M24_H20",
+      "lmOtsMode": "LMOTS_SHA256_N24_W2",
+      "tests": [
+        {
+          "tcId": 3,
+          "deferred": false,
+          "publicKey": "0000000D000000065BAEF287E572C84BE360732FF597E95084B0E6B38D76477D899C03BE16ED36B2A6C1F9F153B1F3CD",
+          "seed": "12BBCBE4047177C6E6C87C2C8E18F05A9CE5BE9B3BB1F924",
+          "i": "5BAEF287E572C84BE360732FF597E950"
+        },
+        {
+          "tcId": 4,
+          "deferred": false,
+          "publicKey": "0000000D000000061D4DC5AEA00CDDAD26AEC780BE8E31CB037168130B1777729891883878D7B9A8EC6BC8A98BAFE7C7",
+          "seed": "C8D3D7249F41EA5F4493877C8330651423E19DD12FD91108",
+          "i": "1D4DC5AEA00CDDAD26AEC780BE8E31CB"
+        }
+      ]
+    },
+    {
+      "tgId": 3,
+      "testType": "AFT",
+      "lmsMode": "LMS_SHA256_M24_H20",
+      "lmOtsMode": "LMOTS_SHA256_N24_W4",
+      "tests": [
+        {
+          "tcId": 5,
+          "deferred": false,
+          "publicKey": "0000000D000000070D2CB6CE064194898694D3CDC7FADC5E9C235932DA95D433BCB6734D677F874CAB5DB3CE073E6859",
+          "seed": "655A479EAFC0AD1834E111EC59F6B999FA8DDBC06027789D",
+          "i": "0D2CB6CE064194898694D3CDC7FADC5E"
+        },
+        {
+          "tcId": 6,
+          "deferred": false,
+          "publicKey": "0000000D00000007080E46537B1BF088DDFCD089EDC53B43A0E1E5023AC3B7FF323E3E958B3B0ACC8F815CB3FF820E07",
+          "seed": "0DFEF10181F832D49775B92584C11DF894542ED9CBCAE7E5",
+          "i": "080E46537B1BF088DDFCD089EDC53B43"
+        }
+      ]
+    },
+    {
+      "tgId": 4,
+      "testType": "AFT",
+      "lmsMode": "LMS_SHA256_M24_H20",
+      "lmOtsMode": "LMOTS_SHA256_N24_W8",
+      "tests": [
+        {
+          "tcId": 7,
+          "deferred": false,
+          "publicKey": "0000000D0000000846A3FC5357A6E09D14B5BDDA14B6966EB3A80A10C8FA5B86E0C45867E5B825816C7A05774C6452D8",
+          "seed": "8EBB99BA684743545EA2D4C66CF2C2D543997EC76A2031BE",
+          "i": "46A3FC5357A6E09D14B5BDDA14B6966E"
+        },
+        {
+          "tcId": 8,
+          "deferred": false,
+          "publicKey": "0000000D00000008931B796BF4FF6135CAFBB67865B8E33A820DC153AF13CB1E983FFB9CB20A96E88C1C169539A67303",
+          "seed": "AFC0CACA433AD53D9B48702C2B3B65326CF02E7ABF9F87BD",
+          "i": "931B796BF4FF6135CAFBB67865B8E33A"
+        }
+      ]
+    }
+  ]
+}

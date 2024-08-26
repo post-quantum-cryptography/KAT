@@ -1,0 +1,81 @@
+{
+  "vsId": 0,
+  "algorithm": "LMS",
+  "mode": "keyGen",
+  "revision": "1.0",
+  "isSample": true,
+  "testGroups": [
+    {
+      "tgId": 1,
+      "testType": "AFT",
+      "lmsMode": "LMS_SHA256_M32_H20",
+      "lmOtsMode": "LMOTS_SHA256_N32_W1",
+      "tests": [
+        {
+          "tcId": 1,
+          "seed": "4AAD315006F35DA295342ADA75AB3BF1C834C2D1E2C17A1AB4F0AB5094E04B63",
+          "i": "CC580C1D00BF61D0C1AC218BF50E3A2C"
+        },
+        {
+          "tcId": 2,
+          "seed": "E9EF80E147B98BD652ED6EA9B439D50295EF6F0A88D82ACB8B52D2EFCB635C65",
+          "i": "5B3492F60E342122FB0BD6695D39C86D"
+        }
+      ]
+    },
+    {
+      "tgId": 2,
+      "testType": "AFT",
+      "lmsMode": "LMS_SHA256_M32_H20",
+      "lmOtsMode": "LMOTS_SHA256_N32_W2",
+      "tests": [
+        {
+          "tcId": 3,
+          "seed": "FE8FEDAF98C1A178EFF69D38B6C19D82A06DA66B5460916D2000F41DAFC7B76E",
+          "i": "FDE094B213290EC3F9C786111C5C8A27"
+        },
+        {
+          "tcId": 4,
+          "seed": "AB00C84A6F2371B4E78E675C0E8B74F5A0DDA64B3BC7666C073BE18258F4D28A",
+          "i": "B42FFE523CC17D54A652E36A084D0F51"
+        }
+      ]
+    },
+    {
+      "tgId": 3,
+      "testType": "AFT",
+      "lmsMode": "LMS_SHA256_M32_H20",
+      "lmOtsMode": "LMOTS_SHA256_N32_W4",
+      "tests": [
+        {
+          "tcId": 5,
+          "seed": "784A8D33B8FE4CE360F726766A7CF3D8DD4B04F2249BC5983388EEF696A823EA",
+          "i": "B1129289D00467CD5A507403D313BD8D"
+        },
+        {
+          "tcId": 6,
+          "seed": "2D09CDCBFD820E4824E90B3B63BCCC6F48E1FDBED504E2DBE5D9274B95E13D3B",
+          "i": "A10A0B60E9EFBB4F2CF5FF55445698CB"
+        }
+      ]
+    },
+    {
+      "tgId": 4,
+      "testType": "AFT",
+      "lmsMode": "LMS_SHA256_M32_H20",
+      "lmOtsMode": "LMOTS_SHA256_N32_W8",
+      "tests": [
+        {
+          "tcId": 7,
+          "seed": "DDA9904C64C0E1993BAEA74D1B24C49E41CDDDACB7E7B34DD4BF0E6B97BCC83A",
+          "i": "54C859116FB851FE693310969E44B7D4"
+        },
+        {
+          "tcId": 8,
+          "seed": "476E99B428776D9074CAA1A0CBEC7845BC1CF9CFB4CEA9DB724686A0BA0D13D5",
+          "i": "E179A34A601024463A3009D6AD6529D9"
+        }
+      ]
+    }
+  ]
+}

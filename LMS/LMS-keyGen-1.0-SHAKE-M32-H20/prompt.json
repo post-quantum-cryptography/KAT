@@ -1,0 +1,81 @@
+{
+  "vsId": 0,
+  "algorithm": "LMS",
+  "mode": "keyGen",
+  "revision": "1.0",
+  "isSample": true,
+  "testGroups": [
+    {
+      "tgId": 1,
+      "testType": "AFT",
+      "lmsMode": "LMS_SHAKE_M32_H20",
+      "lmOtsMode": "LMOTS_SHAKE_N32_W1",
+      "tests": [
+        {
+          "tcId": 1,
+          "seed": "C7324590993FCDCF841ECED4587065712B85B5CBEB433C1AA362A8D6F3B8033E",
+          "i": "F83C28420B5899AAB374E569E2086B83"
+        },
+        {
+          "tcId": 2,
+          "seed": "3BE9F8243D0751B6FC3DBA5FA947BF322A7F7CA56E504BD887F952551B45F910",
+          "i": "2127676C0E6B07601C8DC8404EAD5202"
+        }
+      ]
+    },
+    {
+      "tgId": 2,
+      "testType": "AFT",
+      "lmsMode": "LMS_SHAKE_M32_H20",
+      "lmOtsMode": "LMOTS_SHAKE_N32_W2",
+      "tests": [
+        {
+          "tcId": 3,
+          "seed": "4085A6B782C19ED442B7B5B9FD7F6D4DB032981368FC3A4916E5852D18EE3A76",
+          "i": "161D53278E896FBDAC709DCEFA88E5C5"
+        },
+        {
+          "tcId": 4,
+          "seed": "EC30E052345484B9E78250536E83327AD88CBDB286D937FAD06E6A5953ECDC9C",
+          "i": "CFB2EA9616786FF8EFBC228A8B974C86"
+        }
+      ]
+    },
+    {
+      "tgId": 3,
+      "testType": "AFT",
+      "lmsMode": "LMS_SHAKE_M32_H20",
+      "lmOtsMode": "LMOTS_SHAKE_N32_W4",
+      "tests": [
+        {
+          "tcId": 5,
+          "seed": "487ADDAA869893BD0F4E830FE39D95F3669A6043F6C8A14CBB455D0A035EAEC8",
+          "i": "49EDE8DAA13AD3E5DF8276417FC2EB3D"
+        },
+        {
+          "tcId": 6,
+          "seed": "2F208B95C7B309AF8EAD6C407214758956BB777524FEC5FB8FB7663BC4AA412E",
+          "i": "50310FF07DFBEDE6020DE4D5FE5A4B83"
+        }
+      ]
+    },
+    {
+      "tgId": 4,
+      "testType": "AFT",
+      "lmsMode": "LMS_SHAKE_M32_H20",
+      "lmOtsMode": "LMOTS_SHAKE_N32_W8",
+      "tests": [
+        {
+          "tcId": 7,
+          "seed": "A4997780765A13A4EC4B091510B1B7F06EE339F55FB682087C1712AF44A1BE41",
+          "i": "A5B88302B3E1E59FC44A77E5FA1A789D"
+        },
+        {
+          "tcId": 8,
+          "seed": "66E0BE37EFE9F0B6A7C462B6984DEC3AB075F4984125C3A3249A639A69EECB80",
+          "i": "61E4852AE168ECCCDA553A5B726DA8B7"
+        }
+      ]
+    }
+  ]
+}

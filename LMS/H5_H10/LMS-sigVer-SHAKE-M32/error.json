@@ -1,6 +1,0 @@
-{
-  "StatusCode": 9,
-  "Source": "generator",
-  "Message": "Test case generator error. Unable to produce test case for prompt file. Contact service provider.",
-  "AdditionalInformation": "Error generating case: No TestCaseExpectationReason remaining to pull"
-}

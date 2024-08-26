@@ -1,0 +1,61 @@
+{
+  "vsId": 0,
+  "algorithm": "LMS",
+  "mode": "keyGen",
+  "revision": "1.0",
+  "isSample": true,
+  "testGroups": [
+    {
+      "tgId": 1,
+      "tests": [
+        {
+          "tcId": 1,
+          "publicKey": "000000170000000DC74A2FDB448496C79C847BD140996B67BFE3BFDE09FBFDF6000ABFAB6D29541B13212232547EA928"
+        },
+        {
+          "tcId": 2,
+          "publicKey": "000000170000000D1DCD2DC9D14C87800A4FA921C784017FA5C830F6B29857CD785FEA1273CAC508D4C06193B85F2609"
+        }
+      ]
+    },
+    {
+      "tgId": 2,
+      "tests": [
+        {
+          "tcId": 3,
+          "publicKey": "000000170000000E8E9A531754B9F46D8EA288917219CA009A75921782D2E253C15B4F432BC68C54D321A365096C593F"
+        },
+        {
+          "tcId": 4,
+          "publicKey": "000000170000000ECEE13529D8A0F29230106D89B56FB92F7266B99006303A9D549F91B3DB7F85279971BDFE36F5E55C"
+        }
+      ]
+    },
+    {
+      "tgId": 3,
+      "tests": [
+        {
+          "tcId": 5,
+          "publicKey": "000000170000000F7055FBA65917EBDD0E00E6749F9118F54DFE83CD7899AD9D1CF250B3FECC1400014F460C1BEB09A6"
+        },
+        {
+          "tcId": 6,
+          "publicKey": "000000170000000F177A0B446AAE962BD87F8F3BECD0DD28C0AE23551164921B6F48111CBE84AA6FC0A620B87F31611C"
+        }
+      ]
+    },
+    {
+      "tgId": 4,
+      "tests": [
+        {
+          "tcId": 7,
+          "publicKey": "00000017000000100EC94125CFC095F4EC2969917C85B1481B69B57A9CAF1AE9C270AA3C68735F1D6C31158DCCE769E3"
+        },
+        {
+          "tcId": 8,
+          "publicKey": "0000001700000010B694E5D293F1733826DCBC169D96EB3E027ED8BBCABF8DA193D5A835B7613760ADB23052B1C16DCB"
+        }
+      ]
+    }
+  ]
+}

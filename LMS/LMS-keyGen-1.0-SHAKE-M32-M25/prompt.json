@@ -1,0 +1,81 @@
+{
+  "vsId": 0,
+  "algorithm": "LMS",
+  "mode": "keyGen",
+  "revision": "1.0",
+  "isSample": true,
+  "testGroups": [
+    {
+      "tgId": 1,
+      "testType": "AFT",
+      "lmsMode": "LMS_SHAKE_M32_H25",
+      "lmOtsMode": "LMOTS_SHAKE_N32_W1",
+      "tests": [
+        {
+          "tcId": 1,
+          "seed": "BD1A0EA80C7BA8641B4EAF05ABD10FA126E2691192BFC1045EC0F6FF25CB7219",
+          "i": "D3B34C8F5BC2FFEC497476C67D223061"
+        },
+        {
+          "tcId": 2,
+          "seed": "D32D2A2179F92F6344D8A2C7CE7D777C2905811D5F3D0B44635EAB077735B2F8",
+          "i": "9CEA0661DA1FC20CCC066C1CAB36246D"
+        }
+      ]
+    },
+    {
+      "tgId": 2,
+      "testType": "AFT",
+      "lmsMode": "LMS_SHAKE_M32_H25",
+      "lmOtsMode": "LMOTS_SHAKE_N32_W2",
+      "tests": [
+        {
+          "tcId": 3,
+          "seed": "6974D39D79BE076C6761C30146C0BFAA800D2B3A0092566970487FEBFEE19F74",
+          "i": "94212C7542CF47D370914375186E4153"
+        },
+        {
+          "tcId": 4,
+          "seed": "8EB73B41A074AB61DD87B9D9E190AF3115BA5669800E9BBEC29B955576D4127C",
+          "i": "2D89714059D45C924F8944CC0463AB97"
+        }
+      ]
+    },
+    {
+      "tgId": 3,
+      "testType": "AFT",
+      "lmsMode": "LMS_SHAKE_M32_H25",
+      "lmOtsMode": "LMOTS_SHAKE_N32_W4",
+      "tests": [
+        {
+          "tcId": 5,
+          "seed": "F80C4B37ED9FDF50EF9C800EAA93269545BFDAF6F792A21C2FE3413D20D24157",
+          "i": "4A8E689B62331F61BB5C19C21CE8B2DB"
+        },
+        {
+          "tcId": 6,
+          "seed": "9545D2C084533C71A992BC0E94165F6E4AB031076913354AF45F099531889007",
+          "i": "9E77F16C11A0767B2C58A27445154826"
+        }
+      ]
+    },
+    {
+      "tgId": 4,
+      "testType": "AFT",
+      "lmsMode": "LMS_SHAKE_M32_H25",
+      "lmOtsMode": "LMOTS_SHAKE_N32_W8",
+      "tests": [
+        {
+          "tcId": 7,
+          "seed": "5F51839D3063F1629C2F369371EBE8EEEF943AB2CC90FEDF2032FA8F698AA185",
+          "i": "044E540A902484102828595D208B35B9"
+        },
+        {
+          "tcId": 8,
+          "seed": "0ADDC45630A0DA1C2EF09378583BC5BDBF87CAC74E0D4057FA149203895EB131",
+          "i": "E0875B8C7D6AA3C2D2D501D0E595B718"
+        }
+      ]
+    }
+  ]
+}
