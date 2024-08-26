@@ -1,0 +1,35 @@
+{
+   "vsId": 0,
+   "algorithm": "XMSS",
+   "mode": "keyGen",
+   "revision": "1.0",
+   "isSample": true,
+   "testGroups": [
+     {
+       "tgId": 1,
+       "testType": "AFT",
+       "OID": 21,
+       "param": "XMSS-SHAKE256_20_192",
+       "tests": [
+         {
+           "tcId": 1,
+           "S_XMSS": "F1F4024416C4E78A612A68B9B2D5B269731090EEE2740C45",
+           "SK_PRF": "BA3F3C9319C4EC8BDB268B09DFFCB5C8123DF5BED1D923F1",
+           "I": "22D7E2CB39619764F0A992DC47259D7996C43950ECBFFF03"
+         },
+         {
+           "tcId": 2,
+           "S_XMSS": "1F67F393C54DE838528EE3682597192A715D4ABA1F11BBB7",
+           "SK_PRF": "08F91584461A9DE5BFE0A14FD3112F920D409EC9E0D41574",
+           "I": "D2B5ADB757A53B90EB22EE7209E88E28E69D92FDC3C0B196"
+         },
+         {
+           "tcId": 3,
+           "S_XMSS": "02F751B6E05AD9ACDC63E95BC8F006D2245494A26135727A",
+           "SK_PRF": "96B4B6B60D41B3F60889F8C865433CE4718E499B2A92C70A",
+           "I": "CBD4913265F9F908605F6FA4B27EC5E97DCF2D171542DDDB"
+         }
+       ]
+     }
+   ]
+ }

@@ -1,0 +1,26 @@
+{
+    "vsId": 0,
+    "algorithm": "XMSS",
+    "mode": "sigVer",
+    "revision": "1.0",
+    "isSample": true,
+    "testGroups": [
+        {
+            "tgId": 1,
+            "tests": [
+                {
+                    "tcId": 1,
+                    "testPassed": false
+                },
+                {
+                    "tcId": 2,
+                    "testPassed": true
+                },
+                {
+                    "tcId": 3,
+                    "testPassed": false
+                }
+            ]
+        }
+    ]
+}
