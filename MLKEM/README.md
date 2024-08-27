@@ -1,7 +1,6 @@
 ## KAT for FIPS-203 (draft)
 
-Compliant with FIPS-203 draft, published on August 24, 2023.
-Those vectors include [comments](https://csrc.nist.gov/Projects/post-quantum-cryptography/post-quantum-cryptography-standardization/example-files) published by NIST on October 31, 2023.
+Compliant with FIPS-203, published on August 13, 2024.
 
 ## File format:
 
@@ -21,9 +20,6 @@ Those vectors include [comments](https://csrc.nist.gov/Projects/post-quantum-cry
 
 ## Differences with the FIPS-203
 - No tests for key validation
-- The order of the input i and j to the XOF at step 6 in Algorithm 12 K-PKE.KeyGen() is swapped.
-- The order of the input i and j to the XOF at step 6 in Algorithm 13 K-PKE.Encrypt() is swapped.
-
 
 ## How it was generated
 
