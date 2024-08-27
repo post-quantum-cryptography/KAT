@@ -1,4 +1,4 @@
-## KAT for FIPS-203 (draft)
+## KAT for FIPS-203
 
 Compliant with FIPS-203, published on August 13, 2024.
 
