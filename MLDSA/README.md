@@ -21,6 +21,7 @@ the ``rnd`` buffer should be filled with zeros by the implementation.
 | ``sk``    | Resulting secret key                                                 |
 | ``sm``    | Resulting signature concatenated with the message (``sm`` | ``msg``) |
 | ``smlen`` | Length of the ``sm`` buffer                                          |
+| ``ctx``   | The context string. Always 16 bytes.                                 |
 
 ## How it was generated
 
