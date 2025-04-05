@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+authors:
+- family-names: "Kwiatkowski"
+  given-names: "Krzysztof"
+  orcid: "https://orcid.org/0000-0003-2363-317X"
+title: "Post Quantum KATs"
+version: 0.0.4
+date-released: 2024-09-04
+url: "https://github.com/post-quantum-cryptography/KAT"
